@@ -1,5 +1,5 @@
 @media screen and (max-width:427px) {
-    .nav-items,.nav-container{
+    .nav-items,.nav-container,.main-container{
         flex-direction: column;
     }
     .nav-container{
@@ -14,5 +14,23 @@
     }
     .follow{
         margin-top: 10px;
+    }
+    .main-container{
+        width: 100%;
+        margin: 0px auto;
+    }
+    .main-content{
+        padding-left: 85px;
+        width: 80%;
+    }
+    .main-content button{
+    margin-right: 10px;
+    }
+    .benner-img img{
+        width: 100%;
+    }
+    .benner-img{
+        width: 100%;
+        margin-top: 50px;
     }
 }
