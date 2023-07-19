@@ -131,7 +131,7 @@ font-family: 'Work Sans', sans-serif;
         margin-top: 30px;
     }
     .online-games{
-        border: 2px solid darkcyan;
+        
     }
     .card img{
         width: 80%;
@@ -159,4 +159,49 @@ font-family: 'Work Sans', sans-serif;
         -webkit-text-fill-color: transparent;
         font-size: 30px;
         font-weight: 700;
+    }
+
+        /* play-zone */
+
+        .play-container{
+            border: 2px solid rebeccapurple;
+            display: flex;
+        }
+        .play-zone{
+            width: 50%;
+            border: 2px solid green;
+            padding-top: 150px;
+            margin-right: 150px;
+        }
+        .play-inst{
+            background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .play-zone h2{
+            text-align: right;
+            font-size: 30px;
+            font-weight: 700;
+            color: #0B0223;
+        }
+        .play-zone p{
+            color: #534C64;
+            text-align: right;
+            font-size: 15px;
+            font-weight: 400;
+        }
+        .img-zone{
+            width: 50%;
+        }
+        .img-zone img{
+            width: 80%;
+            margin-left: 50px;
+            
+        }
+    .background-img{
+        width:50%;
+        position: relative;
+        bottom: 200px;
+        
     }
