@@ -1,5 +1,6 @@
 @media screen and (max-width:427px) {
-    .nav-items,.nav-container,.main-container,.online-container{
+    .nav-items,.nav-container,.main-container,.online-container,
+     .play-container,.more-games,.footer-content{
         flex-direction: column;
     }
     .nav-container{
@@ -39,10 +40,49 @@
     .online-container .card{
         margin-top: 20px;
     }
+    .play-zone{
+        width: 100%;
+        
+    }
+    .play-zone h2{
+        text-align: center;
+        margin-top: -70px;
+    }
+    .play-zone p{
+        text-align: center;
+    }
+    .img-zone{
+        width:100%;
+        margin-top: 50px;
+    }
+    .main-img img{
+        width: 75%;
+    }
+    .background-img img{
+        width: 50%;
+        bottom: 150px;
+    }
+    .more-games{
+        grid-template-columns: repeat(3,1fr);
+        width: 100%;
+    }
+    .footer-content{
+       grid-template-columns: repeat(3,1fr);
+    }
+    footer{
+        height: 100%;
+    }
+    .title-des {
+       margin-left: 50px;
+    }
+    footer .copyright{
+        padding-bottom: 50px;
+    }
+    
 }
 
   @media screen and (min-width:430px) and (max-width:992px){
-    .main-container{
+    .main-container,.play-container{
         flex-direction: column;
     }
     .benner-img img{
@@ -52,6 +92,28 @@
     width: 100%;
     margin-left: 100px;
     margin-top: 50px;
+}
+.play-zone{
+    width: 100%;
+    
+}
+.play-zone h2{
+    text-align: center;
+    margin-top: -70px;
+}
+.play-zone p{
+    text-align: center;
+}
+.img-zone{
+    width:100%;
+    margin-top: 50px;
+}
+.main-img img{
+    width: 75%;
+}
+.background-img img{
+    width: 40%;
+    bottom: 250px;
 }
   
 }
