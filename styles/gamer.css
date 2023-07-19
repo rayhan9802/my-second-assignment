@@ -9,6 +9,7 @@ font-family: 'Work Sans', sans-serif;
     header{
         max-width: 1550px;
         margin: 0px auto;
+        background-image: url(/images/Group\ 14.png);
     }
     .nav-container{
         display: flex;
@@ -51,20 +52,15 @@ font-family: 'Work Sans', sans-serif;
         padding-top: 10px;
     }
 
-    /* main section start */
-
-    main{
-        max-width: 1200px;
-        margin: 0px auto;
-        background-image: url(/images/Group\ 14.png);
-    }
+    /* header section start */
+    
     .main-container{
         display: flex;
     }
     .main-content{
         width: 50%;     
-      margin-top: 60px;
-      padding-left: 30px;
+      margin-top: 100px;
+      padding-left: 130px;
     }
     .main-content p{
         color: #534C64;
@@ -111,6 +107,56 @@ font-family: 'Work Sans', sans-serif;
         background-color: #FFF;
     }
     .benner-img img{
-        width: 100%;
+        width: 80%;
         
+    }
+      
+    /* main section */
+
+    
+    main{
+        max-width: 1200px;
+        min-height: 100px;
+        margin: 0px auto;
+    }
+    .online-title{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .online-container{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        border-radius: 16px;
+        padding-left: 50px;
+        margin-top: 30px;
+    }
+    .online-games{
+        border: 2px solid darkcyan;
+    }
+    .card img{
+        width: 80%;
+    }
+    .card p{
+        color: #534C64;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .online-title p{
+        color: #534C64;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .online-title h2{
+        color: #0B0223;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .funny{
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 30px;
+        font-weight: 700;
     }

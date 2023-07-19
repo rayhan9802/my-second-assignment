@@ -1,5 +1,5 @@
 @media screen and (max-width:427px) {
-    .nav-items,.nav-container,.main-container{
+    .nav-items,.nav-container,.main-container,.online-container{
         flex-direction: column;
     }
     .nav-container{
@@ -33,4 +33,25 @@
         width: 100%;
         margin-top: 50px;
     }
+    .online-container{
+        grid-template-columns: 1fr;
+    }
+    .online-container .card{
+        margin-top: 20px;
+    }
+}
+
+  @media screen and (min-width:430px) and (max-width:992px){
+    .main-container{
+        flex-direction: column;
+    }
+    .benner-img img{
+        width: 60%;
+  }
+  .benner-img{
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+  
 }
