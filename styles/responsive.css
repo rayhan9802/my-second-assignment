@@ -1,0 +1,18 @@
+@media screen and (max-width:427px) {
+    .nav-items,.nav-container{
+        flex-direction: column;
+    }
+    .nav-container{
+        width:50%;
+        margin: 0px auto;
+    }
+    .nav-items{
+        padding-left: 50px;
+    }
+    .nav-items a{
+        margin-top: 10px;
+    }
+    .follow{
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,48 @@
+
+
+    /* nav section */
+    header{
+        max-width: 1550px;
+        border: 2px solid greenyellow;
+        margin: 0px auto;
+    }
+    .nav-container{
+        display: flex;
+        max-width: 1200px;
+        margin: 0px auto;
+    }
+    .nav-section{
+        width: 50%;
+       display: flex;
+    }
+    .nav-section img{
+        width: 86.041px;
+        height: 30px; 
+          padding-top: 20px;
+          margin-right: 15px;
+    }
+    .nav-items{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+        
+    }
+    .nav-items a{
+        text-decoration: none;
+    }
+    .gamer{
+        color:rgb(240, 103, 126);
+    }
+    .fa-brands{
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    .follow{
+        border-radius: 8px;
+        background: rgba(11, 2, 35, 0.10);
+        width: 200px;
+        height: 40px;
+        text-align: center;
+        padding-top: 10px;
+    }
