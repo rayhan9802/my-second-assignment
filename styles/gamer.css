@@ -279,14 +279,18 @@ font-family: 'Work Sans', sans-serif;
             color:rgb(240, 103, 126);
         }
         .footer-content{
-            color: #FFF;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            
+            padding-bottom: 10px;
         }
-        .footer-content h6{
+        .footer-content a{
+            color: #FFF;
+            font-size: 13px;
+            text-decoration: none;
             margin-right: 30px;
+        }
+        .footer-content ul{
+            display: grid;
+            grid-template-columns: repeat(6,110px);
+            justify-content: center;
         }
     .footer-icons{
         justify-content: center;
@@ -294,15 +298,17 @@ font-family: 'Work Sans', sans-serif;
         margin-top: 15px;
     }
     .title-des{
-        color: rgba(255, 255, 255, 0.60);
         font-size: 13px;
         font-weight: 500;
-        display: flex;
-        justify-content: center;
-        padding-top:15px ;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+        padding-top:25px ;
     }
-    .title-des p{
+    .title-des a{
         padding-right: 30px;
+        color: rgba(255, 255, 255, 0.60);
+        text-decoration: none;
     }
     footer .copyright{
         color: rgba(255, 255, 255, 0.60);     
@@ -310,5 +316,5 @@ font-family: 'Work Sans', sans-serif;
         font-weight: 500;
         justify-content: center;
         display: flex;
-        padding-top: 15px;
+        padding-top: 30px;
     }

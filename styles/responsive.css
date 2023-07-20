@@ -1,6 +1,6 @@
 @media screen and (max-width:427px) {
     .nav-items,.nav-container,.main-container,.online-container,
-     .play-container,.more-games,.footer-content{
+     .play-container,.more-games,.footer-content ul{
         flex-direction: column;
     }
     .nav-container{
@@ -66,9 +66,10 @@
         grid-template-columns: repeat(3,1fr);
         width: 100%;
     }
-    .footer-content{
-       grid-template-columns: repeat(3,1fr);
+    .footer-content ul{
+        grid-template-columns: repeat(3,1fr);
     }
+   
     footer{
         height: 100%;
     }
